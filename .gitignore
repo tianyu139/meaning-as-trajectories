@@ -1,0 +1,7 @@
+.idea/
+results/
+__pycache__/
+.ipynb_checkpoints/
+saved_figures/
+.DS_Store
+*.swp
