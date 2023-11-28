@@ -77,8 +77,11 @@ python entailment_main ${model} trajectory
 ```
 and changing the `model` variable appropriately.
 
----
 
+#### Configuring number and length of trajectories
+Sampling more and longer trajectories generally produces better results. By default, all experiments use `--n_traj 20 --max_traj_len 20`. One can also choose to speed up computation significantly with a slight tradeoff in overall performance by reducing both number and maximum length of trajectories. For instance, setting `--n_traj 10 --max_traj_len 10` should still work well for most of the supported tasks.
+
+---
 If you find this useful for your work, please consider citing
 ```
 @article{liu2023meaning,
