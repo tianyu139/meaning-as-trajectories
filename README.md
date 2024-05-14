@@ -84,10 +84,10 @@ Sampling more and longer trajectories generally produces better results. By defa
 ---
 If you find this useful for your work, please consider citing
 ```
-@article{liu2023meaning,
+@inproceedings{liu2024meaning,
   title={Meaning Representations from Trajectories in Autoregressive Models},
   author={Liu, Tian Yu and Trager, Matthew and Achille, Alessandro and Perera, Pramuditha and Zancato, Luca and Soatto, Stefano},
-  journal={arXiv preprint arXiv:2310.18348},
-  year={2023}
+  booktitle={The Twelfth International Conference on Learning Representations},
+  year={2024}
 }
 ```
